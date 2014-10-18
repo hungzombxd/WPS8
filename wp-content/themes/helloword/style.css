@@ -1,0 +1,74 @@
+/* 
+Theme Name: Hello world 
+Description: Hello world theme 
+Author: Hung Nguyen Van
+Version: 1.0 
+*/ 
+body{ 
+    font-family:Verdana, Geneva, sans-serif; 
+    font-size:12px; 
+    line-height:1.5em; 
+    background:#C0C0C0; 
+    width: 960px;
+    margin: 0px auto;
+} 
+
+.wraper{ 
+    width:980px; 
+    height:500px; 
+    margin:0 auto; 
+    } 
+.container{ 
+        height:500px; 
+        background:#FFF; 
+    }     
+.header{ 
+    height:120px; 
+    background:#000; 
+    color:#FFF; 
+    } 
+.footer{ 
+    height:100px; 
+    background:#000; 
+    color:#FFF; 
+    }  
+
+#list-product ul li {
+    list-style: none;
+    width: 25%;
+    height:200px;
+    float: left;
+    border: 1px solid #c7c7c7;
+}
+
+.product-item {
+    width: 100%;
+    position: relative;
+      height: 100%;
+    
+}
+
+.product-item img {
+    width: 80%;
+    margin: 5px 10%;
+  
+}
+
+.product-item p {
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    display: none;
+    position: absolute;
+    bottom: 0px;
+}
+
+.product-item:hover p  {
+    display: block;
+
+}
+
